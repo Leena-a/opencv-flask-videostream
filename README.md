@@ -52,6 +52,7 @@ $ pip3 install imutils
 ## Execution 
 
 Making scripts executable:
+> Assuming that the project file named `Python`.
 ```
 $ cd /Python
 $ chmod +x webstreaming.py
@@ -59,7 +60,7 @@ $ cd /Python/pyimagesearch/motion_detection
 $ chmod +x singlemotiondetector.py
 ```
 
-In terminal, execute the following command:
+To execute the project:
 ```
 $ python3 Python/webstreaming.py --ip 0.0.0.0 --port 8000
 ```
