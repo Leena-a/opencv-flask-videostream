@@ -65,6 +65,7 @@ To execute the project:
 $ python3 Python/webstreaming.py --ip 0.0.0.0 --port 8000
 ```
 
+![flask_opencv_stream](https://user-images.githubusercontent.com/52850659/124815578-1cf3c100-df70-11eb-8f84-2431cb5db60a.png)
 
 
 
