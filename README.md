@@ -35,6 +35,22 @@ $ pip3 install imutils
 ```
 
 
+
+## Inside your project file
+
+1- Save `webstreaming.py` which will use OpenCV to access the web camera.
+
+2- Create `pyimagesearch` module with `motion_detection` submodule inside.
+
+3- Save `SingleMotionDetector.py` file inside `motion_detection` submodule to perform motion detection.
+
+4- Create `templates` directory and save `index.html` inside it, to populate its contents with HTML used to serve the video feed.
+
+
+
+
+## Execution 
+
 Making scripts executable:
 ```
 $ cd /Python
@@ -43,6 +59,15 @@ $ cd /Python/pyimagesearch/motion_detection
 $ chmod +x singlemotiondetector.py
 ```
 
+In terminal, execute the following command:
+```
+$ python3 Python/webstreaming.py --ip 0.0.0.0 --port 8000
+```
+
+
+
+
+Note that an RPi camera module or a USB webcam is required for the video stream to start.
 
 
 
