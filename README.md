@@ -4,7 +4,7 @@ Python project uses OpenCV to stream video from a webcam to a web browser/HTML p
 
 > System: Ubuntu 18.04
 
-> Python3 version: Python 3.6.9
+> Python version: Python 3.6.9
 
 > [Project source]
 
@@ -25,7 +25,7 @@ $ pip3 install --upgrade pip
 Installing required tools:
 - Flask
 ```
-$ Pip3 install flask
+$ pip3 install flask
 ```
 - NumPy, OpenCV, and imutils
 ```
